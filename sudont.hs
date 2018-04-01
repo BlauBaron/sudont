@@ -3,7 +3,7 @@ import System.Environment
 
 printMessage :: IO ()
 printMessage = do
-    putStrLn "With No Power Come No Responsibility" 
+    putStrLn "With No Power Comes No Responsibility" 
     putStrLn "Sorry, but this programme has no super-user privileges. Please use sudo instead"
 
 printHelp :: IO ()
